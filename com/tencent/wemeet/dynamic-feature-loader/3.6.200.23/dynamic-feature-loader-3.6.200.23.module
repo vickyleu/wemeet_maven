@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "dynamic-feature-loader",
+    "version": "3.6.200.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "t3bm6tcf2behrocdhqjvvr2fra"
+    }
+  },
+  "variants": [
+    {
+      "name": "productReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "4.1.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dynamic-feature-loader-3.6.200.23.aar",
+          "url": "dynamic-feature-loader-3.6.200.23.aar",
+          "size": 167317,
+          "sha512": "cf10e2c9b4bae544986496d23941d284525b77e63047d4dd8a1e465b4b805abfaca90810184b8398a88cd1894606537302fe8848c77eff490baa609da7acf422",
+          "sha256": "0f70f11285f8197cbd209aa13e6326a206a7011ba87ef6820d8061cdb5a329b8",
+          "sha1": "15236ae8dfd6d6a2936b3ab2c5c169097bcee479",
+          "md5": "ec37508f3bba86b04d940ce22dc431a3"
+        }
+      ]
+    },
+    {
+      "name": "productReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "4.1.3"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "module-loader",
+          "version": {
+            "requires": "3.6.200.23"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.6.200.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dynamic-feature-loader-3.6.200.23.aar",
+          "url": "dynamic-feature-loader-3.6.200.23.aar",
+          "size": 167317,
+          "sha512": "cf10e2c9b4bae544986496d23941d284525b77e63047d4dd8a1e465b4b805abfaca90810184b8398a88cd1894606537302fe8848c77eff490baa609da7acf422",
+          "sha256": "0f70f11285f8197cbd209aa13e6326a206a7011ba87ef6820d8061cdb5a329b8",
+          "sha1": "15236ae8dfd6d6a2936b3ab2c5c169097bcee479",
+          "md5": "ec37508f3bba86b04d940ce22dc431a3"
+        }
+      ]
+    }
+  ]
+}

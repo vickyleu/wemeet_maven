@@ -1,0 +1,68 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "qbar",
+    "version": "3.6.200.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "t3bm6tcf2behrocdhqjvvr2fra"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "qbar-3.6.200.23.aar",
+          "url": "qbar-3.6.200.23.aar",
+          "size": 3494816,
+          "sha512": "75222537ffc0e25fac2118ca0d76214ca906271545ade5cbb181dc128a6d894c8d19537b96f9d928bf7fd8627045c35ae4fa6eb7495598a4dded2dcfe4c14235",
+          "sha256": "c9b769ad2ba0f85321333c0b1e55efd4f67500c1b37153576a0a70cd07354e33",
+          "sha1": "778ca66ffbb7ed2a726c8c7121d96c8de3476596",
+          "md5": "5d5b0e1c353f7c11dc5834d521a64b77"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.6.200.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "qbar-3.6.200.23.aar",
+          "url": "qbar-3.6.200.23.aar",
+          "size": 3494816,
+          "sha512": "75222537ffc0e25fac2118ca0d76214ca906271545ade5cbb181dc128a6d894c8d19537b96f9d928bf7fd8627045c35ae4fa6eb7495598a4dded2dcfe4c14235",
+          "sha256": "c9b769ad2ba0f85321333c0b1e55efd4f67500c1b37153576a0a70cd07354e33",
+          "sha1": "778ca66ffbb7ed2a726c8c7121d96c8de3476596",
+          "md5": "5d5b0e1c353f7c11dc5834d521a64b77"
+        }
+      ]
+    }
+  ]
+}

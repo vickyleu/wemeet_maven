@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "kt-extensions",
+    "version": "3.6.200.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "t3bm6tcf2behrocdhqjvvr2fra"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "kt-extensions-3.6.200.23.aar",
+          "url": "kt-extensions-3.6.200.23.aar",
+          "size": 57813,
+          "sha512": "7a5d7e76c165db0def0151d7a0bcceb6d7965da4911dc92e45a667d1f08639d3aa1965c7b81feb220579501b92d44bd0133ff5b77ca341bd4e22dcfe79d07c4d",
+          "sha256": "0f66604ff6f9b443228eee8d9f41f20e91c9ca184fc8692d83a8b581eb31eba5",
+          "sha1": "674c0343ffcdaf18dc59266b08c7482c2e2e1f03",
+          "md5": "3d5ed5ce9c2e305f8d8df91b563e2a81"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.preference",
+          "module": "preference",
+          "version": {
+            "requires": "1.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kt-extensions-3.6.200.23.aar",
+          "url": "kt-extensions-3.6.200.23.aar",
+          "size": 57813,
+          "sha512": "7a5d7e76c165db0def0151d7a0bcceb6d7965da4911dc92e45a667d1f08639d3aa1965c7b81feb220579501b92d44bd0133ff5b77ca341bd4e22dcfe79d07c4d",
+          "sha256": "0f66604ff6f9b443228eee8d9f41f20e91c9ca184fc8692d83a8b581eb31eba5",
+          "sha1": "674c0343ffcdaf18dc59266b08c7482c2e2e1f03",
+          "md5": "3d5ed5ce9c2e305f8d8df91b563e2a81"
+        }
+      ]
+    }
+  ]
+}

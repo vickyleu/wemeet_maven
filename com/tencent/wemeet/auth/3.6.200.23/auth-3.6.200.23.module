@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "auth",
+    "version": "3.6.200.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "t3bm6tcf2behrocdhqjvvr2fra"
+    }
+  },
+  "variants": [
+    {
+      "name": "productReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "auth-3.6.200.23.aar",
+          "url": "auth-3.6.200.23.aar",
+          "size": 253741,
+          "sha512": "81ca5ef6dfed8597529c85e1b214ce56aacf7abe86c593e44556b6c525c5341acd35b88c12ddfeea430e006cb3b7579c1a15e9e53bfda493c5f753c087e985b4",
+          "sha256": "6770532f28bcfa0b93b2df5b154f8fc58fea4888507b3651f9f351316c956367",
+          "sha1": "63725d2fac31f4b9ce74806fa15d473a2f8e5321",
+          "md5": "ceaa9d17f8a32ea26e8777da956cceed"
+        }
+      ]
+    },
+    {
+      "name": "productReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.6.200.23"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.6.200.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-3.6.200.23.aar",
+          "url": "auth-3.6.200.23.aar",
+          "size": 253741,
+          "sha512": "81ca5ef6dfed8597529c85e1b214ce56aacf7abe86c593e44556b6c525c5341acd35b88c12ddfeea430e006cb3b7579c1a15e9e53bfda493c5f753c087e985b4",
+          "sha256": "6770532f28bcfa0b93b2df5b154f8fc58fea4888507b3651f9f351316c956367",
+          "sha1": "63725d2fac31f4b9ce74806fa15d473a2f8e5321",
+          "md5": "ceaa9d17f8a32ea26e8777da956cceed"
+        }
+      ]
+    }
+  ]
+}

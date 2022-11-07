@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "sim_interpret",
+    "version": "3.6.200.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "t3bm6tcf2behrocdhqjvvr2fra"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "4.1.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sim_interpret-3.6.200.23.aar",
+          "url": "sim_interpret-3.6.200.23.aar",
+          "size": 462225,
+          "sha512": "401febc879c4def9742bd833bc778c7733dbe8fcd91e6d78b97d1929c82ace88e2876b204b0b1ac15d23910d0efeddb83db2c501b7f4b76332e3d0abfebb2bf4",
+          "sha256": "f2a8d9e6468daf9076ba4fb7f0cada60a601f9363006d96d799edfb1cbdfc628",
+          "sha1": "9fb6bcc43b66af18389667f4bfb321870ce3b930",
+          "md5": "51af01b91244345aea986e6aea2f7c15"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "4.1.3"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "module-core",
+          "version": {
+            "requires": "3.6.200.23"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "kt-extensions",
+          "version": {
+            "requires": "3.6.200.23"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.6.200.23"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.6.200.23"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "reddot",
+          "version": {
+            "requires": "3.6.200.23"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webview",
+          "version": {
+            "requires": "3.6.200.23"
+          }
+        },
+        {
+          "group": "com.yqritc",
+          "module": "recyclerview-flexibledivider",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sim_interpret-3.6.200.23.aar",
+          "url": "sim_interpret-3.6.200.23.aar",
+          "size": 462225,
+          "sha512": "401febc879c4def9742bd833bc778c7733dbe8fcd91e6d78b97d1929c82ace88e2876b204b0b1ac15d23910d0efeddb83db2c501b7f4b76332e3d0abfebb2bf4",
+          "sha256": "f2a8d9e6468daf9076ba4fb7f0cada60a601f9363006d96d799edfb1cbdfc628",
+          "sha1": "9fb6bcc43b66af18389667f4bfb321870ce3b930",
+          "md5": "51af01b91244345aea986e6aea2f7c15"
+        }
+      ]
+    }
+  ]
+}

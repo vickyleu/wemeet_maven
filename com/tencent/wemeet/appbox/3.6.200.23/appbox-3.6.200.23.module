@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "appbox",
+    "version": "3.6.200.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "t3bm6tcf2behrocdhqjvvr2fra"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "4.1.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "appbox-3.6.200.23.aar",
+          "url": "appbox-3.6.200.23.aar",
+          "size": 257909,
+          "sha512": "4f7d3c1be764c3fcd4b67e24d70fb05cf78829320d2c4977fc5796fbdb6c6fcddf605018a221d7d49eafc3c09accef64ee2ec50eb42e6a2cf545ea3d8fce65e3",
+          "sha256": "31afb1cfb010d8b4bb3d5f5f9a6842043c32ceec0db976e78319d6ae46f55a29",
+          "sha1": "d84b79a922a37d0cfd0cbbccf653768b5e7ff0c2",
+          "md5": "b121355106eadeac55d20ac95f78c888"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "4.1.3"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "module-core",
+          "version": {
+            "requires": "3.6.200.23"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "kt-extensions",
+          "version": {
+            "requires": "3.6.200.23"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.6.200.23"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.6.200.23"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "reddot",
+          "version": {
+            "requires": "3.6.200.23"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webview",
+          "version": {
+            "requires": "3.6.200.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "appbox-3.6.200.23.aar",
+          "url": "appbox-3.6.200.23.aar",
+          "size": 257909,
+          "sha512": "4f7d3c1be764c3fcd4b67e24d70fb05cf78829320d2c4977fc5796fbdb6c6fcddf605018a221d7d49eafc3c09accef64ee2ec50eb42e6a2cf545ea3d8fce65e3",
+          "sha256": "31afb1cfb010d8b4bb3d5f5f9a6842043c32ceec0db976e78319d6ae46f55a29",
+          "sha1": "d84b79a922a37d0cfd0cbbccf653768b5e7ff0c2",
+          "md5": "b121355106eadeac55d20ac95f78c888"
+        }
+      ]
+    }
+  ]
+}
