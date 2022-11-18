@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "video",
+    "version": "3.6.203.71",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "video-3.6.203.71.aar",
+          "url": "video-3.6.203.71.aar",
+          "size": 782676,
+          "sha512": "418e6190f7abbc097b51ac2b6f9a2aea3751c2025cbbfd378fc9f06eee540ddb8a3c913ac9b44b9c76086591cf9266221b29f21e2c9ca8e78e9b7118fc3c9cc0",
+          "sha256": "6a0f29667a510d4643ff03e0c51aa267890662d93f63acd5d20f1b1e1004dc93",
+          "sha1": "0c4c0d53cc5368719883d09d26696df9f5921c03",
+          "md5": "27b27954ca1a638a806cc864c254d436"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "module-core",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "kt-extensions",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "reddot",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webview",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "video-3.6.203.71.aar",
+          "url": "video-3.6.203.71.aar",
+          "size": 782676,
+          "sha512": "418e6190f7abbc097b51ac2b6f9a2aea3751c2025cbbfd378fc9f06eee540ddb8a3c913ac9b44b9c76086591cf9266221b29f21e2c9ca8e78e9b7118fc3c9cc0",
+          "sha256": "6a0f29667a510d4643ff03e0c51aa267890662d93f63acd5d20f1b1e1004dc93",
+          "sha1": "0c4c0d53cc5368719883d09d26696df9f5921c03",
+          "md5": "27b27954ca1a638a806cc864c254d436"
+        }
+      ]
+    }
+  ]
+}

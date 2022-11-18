@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "chat",
+    "version": "3.6.203.71",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chat-3.6.203.71.aar",
+          "url": "chat-3.6.203.71.aar",
+          "size": 1529240,
+          "sha512": "5914b5f092b854a40509cf5a495a54c77e70612427638d7f9d3786561fe29778600bca7b58518297e4a45bd86e2821bee989f9d294b1afdf3db1a627102b7877",
+          "sha256": "032c0832eba07702f6bd438910b87bb22113f11f3fae21f7bacecf36cca8f61c",
+          "sha1": "c0e69b132cbc0e866b80ccfb968773dce95ac099",
+          "md5": "83bd23ed3b4335f51c959021139cf3d5"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "module-core",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "kt-extensions",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "reddot",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webview",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "picture-selector",
+          "version": {
+            "requires": "1.1.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chat-3.6.203.71.aar",
+          "url": "chat-3.6.203.71.aar",
+          "size": 1529240,
+          "sha512": "5914b5f092b854a40509cf5a495a54c77e70612427638d7f9d3786561fe29778600bca7b58518297e4a45bd86e2821bee989f9d294b1afdf3db1a627102b7877",
+          "sha256": "032c0832eba07702f6bd438910b87bb22113f11f3fae21f7bacecf36cca8f61c",
+          "sha1": "c0e69b132cbc0e866b80ccfb968773dce95ac099",
+          "md5": "83bd23ed3b4335f51c959021139cf3d5"
+        }
+      ]
+    }
+  ]
+}

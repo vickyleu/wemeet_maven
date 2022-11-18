@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "base-jni",
+    "version": "3.6.203.71",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "base-jni-3.6.203.71.aar",
+          "url": "base-jni-3.6.203.71.aar",
+          "size": 42485,
+          "sha512": "4532eaf2cfbacdb8869a9644d767864014f4da07ae0eee21bbf484e79f195ef3ac656a9fa53254b03ffa78934fe4d7010380df7fd51f4e477222ee9eac37153f",
+          "sha256": "51b76dea4e12f1dd3c3179440a9637588ca8cfbdb7eb0ef484fe5db5d6113529",
+          "sha1": "83e062f8234bb291cb2adc321882fd2d16ded9af",
+          "md5": "e61b2a28b385529c0976a1e1623be042"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "base-jni-3.6.203.71.aar",
+          "url": "base-jni-3.6.203.71.aar",
+          "size": 42485,
+          "sha512": "4532eaf2cfbacdb8869a9644d767864014f4da07ae0eee21bbf484e79f195ef3ac656a9fa53254b03ffa78934fe4d7010380df7fd51f4e477222ee9eac37153f",
+          "sha256": "51b76dea4e12f1dd3c3179440a9637588ca8cfbdb7eb0ef484fe5db5d6113529",
+          "sha1": "83e062f8234bb291cb2adc321882fd2d16ded9af",
+          "md5": "e61b2a28b385529c0976a1e1623be042"
+        }
+      ]
+    }
+  ]
+}

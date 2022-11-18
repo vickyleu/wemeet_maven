@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "qbar",
+    "version": "3.6.203.71",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "qbar-3.6.203.71.aar",
+          "url": "qbar-3.6.203.71.aar",
+          "size": 3494806,
+          "sha512": "801c041dbf6133b8e1172b0941279cc1e32c20bc7d5e868c22b3fc60f40e79ed93692bcf8c190d98183cdd3ea2c21b027a10d08ccf7f2b9e4ae44ab2a33f1e33",
+          "sha256": "303ad88021f36ea13e67aec056760d1a756a0fbde7aff6a090c5627a6fc54d6e",
+          "sha1": "310a5b89232774c2196046ce92f1cd1ad96273d6",
+          "md5": "b8890c425997af7c18bbb72ef55657ea"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "qbar-3.6.203.71.aar",
+          "url": "qbar-3.6.203.71.aar",
+          "size": 3494806,
+          "sha512": "801c041dbf6133b8e1172b0941279cc1e32c20bc7d5e868c22b3fc60f40e79ed93692bcf8c190d98183cdd3ea2c21b027a10d08ccf7f2b9e4ae44ab2a33f1e33",
+          "sha256": "303ad88021f36ea13e67aec056760d1a756a0fbde7aff6a090c5627a6fc54d6e",
+          "sha1": "310a5b89232774c2196046ce92f1cd1ad96273d6",
+          "md5": "b8890c425997af7c18bbb72ef55657ea"
+        }
+      ]
+    }
+  ]
+}

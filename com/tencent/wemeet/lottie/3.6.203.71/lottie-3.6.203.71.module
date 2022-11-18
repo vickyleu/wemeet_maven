@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "lottie",
+    "version": "3.6.203.71",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lottie-3.6.203.71.aar",
+          "url": "lottie-3.6.203.71.aar",
+          "size": 408260,
+          "sha512": "8bb4643db25a44a6c3dfae4bfb4e55c55c654a88efaa6f58f34fb55cab890923b7e35a11a70f873bc0d2ca7e16fb138c52f5028f7c0b7bc0a464cb02a356643e",
+          "sha256": "23feaac61dc25000a95eea208a8dfde1d7ad933a581b37749f2b4749d809c9b7",
+          "sha1": "2982b7592d2bcaf68034d52795869856cc33ac7a",
+          "md5": "ce55ecaadfd5c9c376fdc27e4a88e1c6"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "2.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lottie-3.6.203.71.aar",
+          "url": "lottie-3.6.203.71.aar",
+          "size": 408260,
+          "sha512": "8bb4643db25a44a6c3dfae4bfb4e55c55c654a88efaa6f58f34fb55cab890923b7e35a11a70f873bc0d2ca7e16fb138c52f5028f7c0b7bc0a464cb02a356643e",
+          "sha256": "23feaac61dc25000a95eea208a8dfde1d7ad933a581b37749f2b4749d809c9b7",
+          "sha1": "2982b7592d2bcaf68034d52795869856cc33ac7a",
+          "md5": "ce55ecaadfd5c9c376fdc27e4a88e1c6"
+        }
+      ]
+    }
+  ]
+}

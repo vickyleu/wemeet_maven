@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "play-core-library",
+    "version": "3.6.203.71",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "play-core-library-3.6.203.71.aar",
+          "url": "play-core-library-3.6.203.71.aar",
+          "size": 47478,
+          "sha512": "7dcd2103e56dbfa24d1d0852c9d06cbf8355d3189d3c369e06364d619b67f33fe356146193b4dbede4228dfb1ac649cdb6f6b123b422cc5edd6808cb1487f66b",
+          "sha256": "feb2d5c3f89525c2f4f3d54ec8b85e17f0649122e40b8fc0d04d954b27706c01",
+          "sha1": "5d9347fc241113fecd427a518d81d05bce76704e",
+          "md5": "637783c4ae0e51f87bbd3314729e876c"
+        }
+      ]
+    },
+    {
+      "name": "productReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet",
+          "module": "dynamic-feature-loader",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "module-loader",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "play-core-library-3.6.203.71.aar",
+          "url": "play-core-library-3.6.203.71.aar",
+          "size": 47478,
+          "sha512": "7dcd2103e56dbfa24d1d0852c9d06cbf8355d3189d3c369e06364d619b67f33fe356146193b4dbede4228dfb1ac649cdb6f6b123b422cc5edd6808cb1487f66b",
+          "sha256": "feb2d5c3f89525c2f4f3d54ec8b85e17f0649122e40b8fc0d04d954b27706c01",
+          "sha1": "5d9347fc241113fecd427a518d81d05bce76704e",
+          "md5": "637783c4ae0e51f87bbd3314729e876c"
+        }
+      ]
+    }
+  ]
+}

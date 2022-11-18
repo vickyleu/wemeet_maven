@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "wmp",
+    "version": "3.6.203.71",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "base-jni",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wmp-3.6.203.71.aar",
+          "url": "wmp-3.6.203.71.aar",
+          "size": 39779259,
+          "sha512": "148527b0651f5796e5056acb9e63826781508735f82477da0891b2c6be2ff9b10ad9d61158dbcf6722c1270e2d8d8ea35dccdb74879fee1af81396da459b187d",
+          "sha256": "77b2dfc1da1dcf152b637605f27ab3cdae58abeae39bcd5eacaa363ac139cabe",
+          "sha1": "57d768da2d697109f28129df2bda19ee71a4b3ab",
+          "md5": "4cc60bd86c409af2c2c226da243160c5"
+        }
+      ]
+    },
+    {
+      "name": "productReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "base-jni",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wmp-3.6.203.71.aar",
+          "url": "wmp-3.6.203.71.aar",
+          "size": 39779259,
+          "sha512": "148527b0651f5796e5056acb9e63826781508735f82477da0891b2c6be2ff9b10ad9d61158dbcf6722c1270e2d8d8ea35dccdb74879fee1af81396da459b187d",
+          "sha256": "77b2dfc1da1dcf152b637605f27ab3cdae58abeae39bcd5eacaa363ac139cabe",
+          "sha1": "57d768da2d697109f28129df2bda19ee71a4b3ab",
+          "md5": "4cc60bd86c409af2c2c226da243160c5"
+        }
+      ]
+    }
+  ]
+}

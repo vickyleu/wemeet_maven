@@ -1,0 +1,88 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "auth",
+    "version": "3.6.203.71",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "auth-3.6.203.71.aar",
+          "url": "auth-3.6.203.71.aar",
+          "size": 253761,
+          "sha512": "0d782920f10054112539d51472e2c3543a16ff06fa7a50ca0cbeca677e4a19b7be830a4673f3e9461b3185e79ea7ec3e6a0017ed26487ee95893f21bd90f39f4",
+          "sha256": "b1dd263a9117e14ef4c4b053019654b766075b15aa3222d5b49b0f0d5631aa9e",
+          "sha1": "b85c58058e220b3b5ea126cffb235950aeab055c",
+          "md5": "f0467834a4fe0ac7da5eddb5e64b9f9f"
+        }
+      ]
+    },
+    {
+      "name": "productReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.6.203.71"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-3.6.203.71.aar",
+          "url": "auth-3.6.203.71.aar",
+          "size": 253761,
+          "sha512": "0d782920f10054112539d51472e2c3543a16ff06fa7a50ca0cbeca677e4a19b7be830a4673f3e9461b3185e79ea7ec3e6a0017ed26487ee95893f21bd90f39f4",
+          "sha256": "b1dd263a9117e14ef4c4b053019654b766075b15aa3222d5b49b0f0d5631aa9e",
+          "sha1": "b85c58058e220b3b5ea126cffb235950aeab055c",
+          "md5": "f0467834a4fe0ac7da5eddb5e64b9f9f"
+        }
+      ]
+    }
+  ]
+}
