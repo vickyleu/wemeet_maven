@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "qbar",
+    "version": "3.12.201.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "qbar-3.12.201.9.aar",
+          "url": "qbar-3.12.201.9.aar",
+          "size": 27229,
+          "sha512": "b4d812e29be5320e4d69b990a711e9d6021aba70397269f2755782fabedb87f1bedda693777afc9b87de5818ade1f60d9f4b472017786ceeb8d8338d518ddced",
+          "sha256": "b3b0de62e48f99f046cf0dc067d9eedcdc1d2e190e9494f4e94dbf142cc21d81",
+          "sha1": "9ce10d55f6d20a9bea09cd101f1a360f11f05118",
+          "md5": "8c994c5552b7a7e0d0498f3b7756b201"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "qbar-3.12.201.9.aar",
+          "url": "qbar-3.12.201.9.aar",
+          "size": 27229,
+          "sha512": "b4d812e29be5320e4d69b990a711e9d6021aba70397269f2755782fabedb87f1bedda693777afc9b87de5818ade1f60d9f4b472017786ceeb8d8338d518ddced",
+          "sha256": "b3b0de62e48f99f046cf0dc067d9eedcdc1d2e190e9494f4e94dbf142cc21d81",
+          "sha1": "9ce10d55f6d20a9bea09cd101f1a360f11f05118",
+          "md5": "8c994c5552b7a7e0d0498f3b7756b201"
+        }
+      ]
+    }
+  ]
+}

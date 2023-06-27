@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "wemeet-kapt",
+    "version": "3.12.201.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wemeet-kapt-3.12.201.9.aar",
+          "url": "wemeet-kapt-3.12.201.9.aar",
+          "size": 4716,
+          "sha512": "33c4ed66069727836ffc27ae31ac5e058bbd9425f05219d0da3305a616b2f725cfea36df11f0ec7481add5242f83097bcf0c2ff5076b2b4fed5324537704c276",
+          "sha256": "6261216c6078cf8964a1329c686189b4fef53f5f909f9f385bbdff7f32b3a17e",
+          "sha1": "3f7e0002f81db94b7e2b4e45ae0036f0ae00eb24",
+          "md5": "02560025e79cf87a5cee8810e9b961ec"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wemeet-kapt-3.12.201.9.aar",
+          "url": "wemeet-kapt-3.12.201.9.aar",
+          "size": 4716,
+          "sha512": "33c4ed66069727836ffc27ae31ac5e058bbd9425f05219d0da3305a616b2f725cfea36df11f0ec7481add5242f83097bcf0c2ff5076b2b4fed5324537704c276",
+          "sha256": "6261216c6078cf8964a1329c686189b4fef53f5f909f9f385bbdff7f32b3a17e",
+          "sha1": "3f7e0002f81db94b7e2b4e45ae0036f0ae00eb24",
+          "md5": "02560025e79cf87a5cee8810e9b961ec"
+        }
+      ]
+    }
+  ]
+}

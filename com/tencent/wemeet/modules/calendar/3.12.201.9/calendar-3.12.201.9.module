@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet.modules",
+    "module": "calendar",
+    "version": "3.12.201.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calendar-3.12.201.9.aar",
+          "url": "calendar-3.12.201.9.aar",
+          "size": 465884,
+          "sha512": "febe4e9d6509d4fe0ab8fdbb17ff6a965f43f6942ff42b45cf1c2e9060c963bcd22a31397e8093bc2e2e2b97ef74e74b319f588a063cf71469f7600b0e3235fe",
+          "sha256": "d4298fa66dcf954f8e38c3dabfc5aa63f4c437bfe7ef4f94f9ae089d9fc3160a",
+          "sha1": "09e5ce8386075482ab5ef6b3eacbd34a5ba103f1",
+          "md5": "d3166e0953b4c034e6d4de5383adba45"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "module-core",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "kt-extensions",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "reddot",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webview",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webcore",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "professional",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calendar-3.12.201.9.aar",
+          "url": "calendar-3.12.201.9.aar",
+          "size": 465884,
+          "sha512": "febe4e9d6509d4fe0ab8fdbb17ff6a965f43f6942ff42b45cf1c2e9060c963bcd22a31397e8093bc2e2e2b97ef74e74b319f588a063cf71469f7600b0e3235fe",
+          "sha256": "d4298fa66dcf954f8e38c3dabfc5aa63f4c437bfe7ef4f94f9ae089d9fc3160a",
+          "sha1": "09e5ce8386075482ab5ef6b3eacbd34a5ba103f1",
+          "md5": "d3166e0953b4c034e6d4de5383adba45"
+        }
+      ]
+    }
+  ]
+}

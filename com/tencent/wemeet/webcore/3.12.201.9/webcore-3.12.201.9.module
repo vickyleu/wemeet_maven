@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "webcore",
+    "version": "3.12.201.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wemeet-kapt",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webcore-3.12.201.9.aar",
+          "url": "webcore-3.12.201.9.aar",
+          "size": 178465,
+          "sha512": "fac6d3f5019dba22bff851b28ec8cb5d2191f65f8d35a6399a03c8aff6d86d799495beeb5f0beac6a48931ffcf4fe66db9a1bf6af8fcbf33561074d83238690e",
+          "sha256": "c030ff8f70c6c581efc447680405bb0f5fec4c3910bb221b845dc1e6aa737f12",
+          "sha1": "5a3bbad06f08d8b6d9c82471405aa9b4912ec5e5",
+          "md5": "dc7ff4e0623382f67edbc29cbacd4167"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wemeet-kapt",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "module-core",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "module-loader",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "websdk",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "picture-selector",
+          "version": {
+            "requires": "1.1.45"
+          }
+        },
+        {
+          "group": "com.tencent.liteav",
+          "module": "LiteAVSDK_Player",
+          "version": {
+            "requires": "9.5.29040"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webcore-3.12.201.9.aar",
+          "url": "webcore-3.12.201.9.aar",
+          "size": 178465,
+          "sha512": "fac6d3f5019dba22bff851b28ec8cb5d2191f65f8d35a6399a03c8aff6d86d799495beeb5f0beac6a48931ffcf4fe66db9a1bf6af8fcbf33561074d83238690e",
+          "sha256": "c030ff8f70c6c581efc447680405bb0f5fec4c3910bb221b845dc1e6aa737f12",
+          "sha1": "5a3bbad06f08d8b6d9c82471405aa9b4912ec5e5",
+          "md5": "dc7ff4e0623382f67edbc29cbacd4167"
+        }
+      ]
+    }
+  ]
+}

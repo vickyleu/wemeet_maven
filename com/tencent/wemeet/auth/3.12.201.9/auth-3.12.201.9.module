@@ -1,0 +1,88 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "auth",
+    "version": "3.12.201.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "auth-3.12.201.9.aar",
+          "url": "auth-3.12.201.9.aar",
+          "size": 257645,
+          "sha512": "4672ddbc597a6ed950c7dcbce126d1f0abd879d3b4637fb6624093e3cdf29e3faa8b0095d1e3e76d30be41d9fd141fe6b901886b85fccce88eefa9e5f3e7bcec",
+          "sha256": "9f13ff8518f48fd605990e7553a818103470b281eb525a47eb0223393a3f536e",
+          "sha1": "e95a950bef25c7e79b5c34195ea4bc4d73ed4ffe",
+          "md5": "d07842f410e4a4903dce816dddf82891"
+        }
+      ]
+    },
+    {
+      "name": "productReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-3.12.201.9.aar",
+          "url": "auth-3.12.201.9.aar",
+          "size": 257645,
+          "sha512": "4672ddbc597a6ed950c7dcbce126d1f0abd879d3b4637fb6624093e3cdf29e3faa8b0095d1e3e76d30be41d9fd141fe6b901886b85fccce88eefa9e5f3e7bcec",
+          "sha256": "9f13ff8518f48fd605990e7553a818103470b281eb525a47eb0223393a3f536e",
+          "sha1": "e95a950bef25c7e79b5c34195ea4bc4d73ed4ffe",
+          "md5": "d07842f410e4a4903dce816dddf82891"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet.modules",
+    "module": "video",
+    "version": "3.12.201.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "video-3.12.201.9.aar",
+          "url": "video-3.12.201.9.aar",
+          "size": 1054646,
+          "sha512": "7dcc3fdb574b41d00eda0a182a96631ea68d776c6640abea7894ae1fb214255690d97d285d63eb915c97eaaae192d216ecab2a1b1e1edb1804695350dc45d16e",
+          "sha256": "333bc5fa3794839afca47993d9ade9876b65de18e0078fd65a66e327c47e855a",
+          "sha1": "216e62f8c260047bc06047fa1f6d7f3b53871ae6",
+          "md5": "5cc20c74e0781d955f2892e144f6a48a"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "module-core",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "kt-extensions",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "reddot",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webview",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webcore",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "professional",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.third-party",
+          "module": "whiteboard",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "name_badge",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "video-3.12.201.9.aar",
+          "url": "video-3.12.201.9.aar",
+          "size": 1054646,
+          "sha512": "7dcc3fdb574b41d00eda0a182a96631ea68d776c6640abea7894ae1fb214255690d97d285d63eb915c97eaaae192d216ecab2a1b1e1edb1804695350dc45d16e",
+          "sha256": "333bc5fa3794839afca47993d9ade9876b65de18e0078fd65a66e327c47e855a",
+          "sha1": "216e62f8c260047bc06047fa1f6d7f3b53871ae6",
+          "md5": "5cc20c74e0781d955f2892e144f6a48a"
+        }
+      ]
+    }
+  ]
+}

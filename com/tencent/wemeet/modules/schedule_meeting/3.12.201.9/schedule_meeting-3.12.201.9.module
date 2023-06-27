@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet.modules",
+    "module": "schedule_meeting",
+    "version": "3.12.201.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet",
+          "module": "videoplayer",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "schedule_meeting-3.12.201.9.aar",
+          "url": "schedule_meeting-3.12.201.9.aar",
+          "size": 2125176,
+          "sha512": "1340171984d5d120531f03c38881ce4f426834b2f65e0922e21761e3931a88542b63d4e193a8314e889f9d21b306db31017c45cf9ac910c5d40772ec3a2de5ed",
+          "sha256": "6f0bb93fe15d42063c0e1ed123d3929f97b5a879df83f1fe2b55a158e0c21e71",
+          "sha1": "c1cdb51b05c6a6a9aff14bca3cf28500e7488ac4",
+          "md5": "e4207c44117cbe5a21382c811375f970"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet",
+          "module": "videoplayer",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "module-core",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "kt-extensions",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "reddot",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webview",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webcore",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "professional",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview-selection",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "schedule_meeting-3.12.201.9.aar",
+          "url": "schedule_meeting-3.12.201.9.aar",
+          "size": 2125176,
+          "sha512": "1340171984d5d120531f03c38881ce4f426834b2f65e0922e21761e3931a88542b63d4e193a8314e889f9d21b306db31017c45cf9ac910c5d40772ec3a2de5ed",
+          "sha256": "6f0bb93fe15d42063c0e1ed123d3929f97b5a879df83f1fe2b55a158e0c21e71",
+          "sha1": "c1cdb51b05c6a6a9aff14bca3cf28500e7488ac4",
+          "md5": "e4207c44117cbe5a21382c811375f970"
+        }
+      ]
+    }
+  ]
+}

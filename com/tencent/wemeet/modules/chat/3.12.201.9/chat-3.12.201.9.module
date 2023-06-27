@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet.modules",
+    "module": "chat",
+    "version": "3.12.201.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chat-3.12.201.9.aar",
+          "url": "chat-3.12.201.9.aar",
+          "size": 1928606,
+          "sha512": "a330943dcbb2f10706dc0801999f0024f7c68c13235a65dd8e4a45a6b42bb9e0171dd25317e3f3d0aa129ae60baf8c42683e28cd10dbd2b95e5bf80ae17c5122",
+          "sha256": "297653536407f39443af2947967329198fc7477705dd1ce9988cda7bb6140168",
+          "sha1": "1aa149898711228518c659267ed10fee8b70c0d4",
+          "md5": "ab50fb4bc14101fe643dec49b136b647"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "module-core",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "kt-extensions",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "reddot",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webview",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webcore",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "professional",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.third-party",
+          "module": "tbs-file-sdk",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.third-party",
+          "module": "tbs-file-componenet",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "picture-selector",
+          "version": {
+            "requires": "1.1.45"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chat-3.12.201.9.aar",
+          "url": "chat-3.12.201.9.aar",
+          "size": 1928606,
+          "sha512": "a330943dcbb2f10706dc0801999f0024f7c68c13235a65dd8e4a45a6b42bb9e0171dd25317e3f3d0aa129ae60baf8c42683e28cd10dbd2b95e5bf80ae17c5122",
+          "sha256": "297653536407f39443af2947967329198fc7477705dd1ce9988cda7bb6140168",
+          "sha1": "1aa149898711228518c659267ed10fee8b70c0d4",
+          "md5": "ab50fb4bc14101fe643dec49b136b647"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "uikit",
+    "version": "3.12.201.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uikit-3.12.201.9.aar",
+          "url": "uikit-3.12.201.9.aar",
+          "size": 667275,
+          "sha512": "a824237b46b6090a0ed43ff153818ec9da553fea5c93170e04b998da353a5d99091b11b285dd219648507b7b524a073a32e6b7247dadd6cc5b11bdd006a82ac4",
+          "sha256": "3602a084b92aa1329bae9a5f0b2ffcfcfde6f864858844055478d19c9548ba1e",
+          "sha1": "720816a314d6762c7ae58d631a70e22224ad0449",
+          "md5": "19b817bf0a909927b8b98f856b99b081"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "reddot",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uikit-3.12.201.9.aar",
+          "url": "uikit-3.12.201.9.aar",
+          "size": 667275,
+          "sha512": "a824237b46b6090a0ed43ff153818ec9da553fea5c93170e04b998da353a5d99091b11b285dd219648507b7b524a073a32e6b7247dadd6cc5b11bdd006a82ac4",
+          "sha256": "3602a084b92aa1329bae9a5f0b2ffcfcfde6f864858844055478d19c9548ba1e",
+          "sha1": "720816a314d6762c7ae58d631a70e22224ad0449",
+          "md5": "19b817bf0a909927b8b98f856b99b081"
+        }
+      ]
+    }
+  ]
+}

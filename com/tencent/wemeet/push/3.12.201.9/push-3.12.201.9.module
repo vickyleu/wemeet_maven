@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "push",
+    "version": "3.12.201.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "push-3.12.201.9.aar",
+          "url": "push-3.12.201.9.aar",
+          "size": 68880,
+          "sha512": "d4912e35eeb246bdbd7750a8fd6197c23fc24e5a3838d9d262b4f81610995d7afc929090f549df2eb3f69d19d30ccf12cfbf7312cc436045c9f2275389f5e4c4",
+          "sha256": "349966b98424aa54c2db7bf8de991c132d9cdfae570685d725f99a0a9adb9dc3",
+          "sha1": "6368dc37efe5626039518c6f5a1c0b9c2410f03c",
+          "md5": "1ae0dedd1f5fab4067cbab048993df7a"
+        }
+      ]
+    },
+    {
+      "name": "productReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.12.201.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "push-3.12.201.9.aar",
+          "url": "push-3.12.201.9.aar",
+          "size": 68880,
+          "sha512": "d4912e35eeb246bdbd7750a8fd6197c23fc24e5a3838d9d262b4f81610995d7afc929090f549df2eb3f69d19d30ccf12cfbf7312cc436045c9f2275389f5e4c4",
+          "sha256": "349966b98424aa54c2db7bf8de991c132d9cdfae570685d725f99a0a9adb9dc3",
+          "sha1": "6368dc37efe5626039518c6f5a1c0b9c2410f03c",
+          "md5": "1ae0dedd1f5fab4067cbab048993df7a"
+        }
+      ]
+    }
+  ]
+}

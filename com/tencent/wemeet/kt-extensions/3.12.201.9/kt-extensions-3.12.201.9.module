@@ -1,0 +1,88 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "kt-extensions",
+    "version": "3.12.201.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "kt-extensions-3.12.201.9.aar",
+          "url": "kt-extensions-3.12.201.9.aar",
+          "size": 60580,
+          "sha512": "24997a7c9b36ff835c9e1a96052cf421e430f183d9fc41fc8525836a9ffa1fca8285da6ede925ec5f9fe0d21a0c490f479f179ddf3b1bafc39d3ec9a391d5fae",
+          "sha256": "8d211372fd509844872afb45aa1c96244d947d062ac3c9a6ce40ceeff6c76607",
+          "sha1": "73f681867006eb148ad3bd133a2ca0f01a7a0526",
+          "md5": "914cb8ce2b82340c1a8e89410c7462d5"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.preference",
+          "module": "preference",
+          "version": {
+            "requires": "1.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kt-extensions-3.12.201.9.aar",
+          "url": "kt-extensions-3.12.201.9.aar",
+          "size": 60580,
+          "sha512": "24997a7c9b36ff835c9e1a96052cf421e430f183d9fc41fc8525836a9ffa1fca8285da6ede925ec5f9fe0d21a0c490f479f179ddf3b1bafc39d3ec9a391d5fae",
+          "sha256": "8d211372fd509844872afb45aa1c96244d947d062ac3c9a6ce40ceeff6c76607",
+          "sha1": "73f681867006eb148ad3bd133a2ca0f01a7a0526",
+          "md5": "914cb8ce2b82340c1a8e89410c7462d5"
+        }
+      ]
+    }
+  ]
+}
