@@ -196,7 +196,7 @@
           "group": "com.tencent.wemeet",
           "module": "picture-selector",
           "version": {
-            "requires": "3.12.201.9"
+            "requires": "1.1.45"
           }
         },
         {

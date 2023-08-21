@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.tencent.wemeet</groupId>
   <artifactId>picture-selector</artifactId>
-  <version>3.12.201.9</version>
+  <version>1.1.45</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
