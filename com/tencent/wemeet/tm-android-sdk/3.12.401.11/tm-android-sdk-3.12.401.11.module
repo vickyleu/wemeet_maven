@@ -1,0 +1,391 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "tm-android-sdk",
+    "version": "3.12.401.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wemeet",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "tm-bugly-sdk",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tm-android-sdk-3.12.401.11.aar",
+          "url": "tm-android-sdk-3.12.401.11.aar",
+          "size": 508571,
+          "sha512": "7aa5022cc14a437a6d44f9d709abd22bcbf14f78536704aa503d1b4812c1428ad765926e130fff7ab0c92800e3698ab6aafae64f663ce686246b1f6bc4c591a9",
+          "sha256": "2df09f4ae99eff8a87763f1901aa963bd4f0422cb74f339a2842f0a2ebef1131",
+          "sha1": "778904af326a98412f92460fefd5343c169aba33",
+          "md5": "44985a59fdbf77d6d055aa64052f708d"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wemeet",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "tm-bugly-sdk",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "mmkv-wemeet-static",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "account",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "activity_space",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "appbox",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "ar_avatar",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "audio",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "breakout_room",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "calendar",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "caption",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "chat",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "company_contacts",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "docs",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "gift",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "handsup",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "historical_meetings",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "idea",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "invite",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "join_meeting",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "login",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "media_process",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "meeting_live",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "meeting_room",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "member",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "misc",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "proxy",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "question_answer",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "quick_meeting",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "record",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "rest",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "ring",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "safety",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "schedule_meeting",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "screen_share",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "settings",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "sim_interpret",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "tm_sdk",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "video",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "vote",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "warmup_media",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.modules",
+          "module": "web_share",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "module-loader",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tm-android-sdk-3.12.401.11.aar",
+          "url": "tm-android-sdk-3.12.401.11.aar",
+          "size": 508571,
+          "sha512": "7aa5022cc14a437a6d44f9d709abd22bcbf14f78536704aa503d1b4812c1428ad765926e130fff7ab0c92800e3698ab6aafae64f663ce686246b1f6bc4c591a9",
+          "sha256": "2df09f4ae99eff8a87763f1901aa963bd4f0422cb74f339a2842f0a2ebef1131",
+          "sha1": "778904af326a98412f92460fefd5343c169aba33",
+          "md5": "44985a59fdbf77d6d055aa64052f708d"
+        }
+      ]
+    }
+  ]
+}

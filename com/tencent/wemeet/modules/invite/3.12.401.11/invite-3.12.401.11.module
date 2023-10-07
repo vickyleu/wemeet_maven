@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet.modules",
+    "module": "invite",
+    "version": "3.12.401.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "invite-3.12.401.11.aar",
+          "url": "invite-3.12.401.11.aar",
+          "size": 1397549,
+          "sha512": "d9aef62e053ae34087fb602577119c86948784d06456823a05bb4802cb7aa196baa39fee5be40e9ceecaaefd4b93c34a82f4faee60f983e209f7d9b946bddc4e",
+          "sha256": "ae06ebfc556485e37a37aa5a36e42be736eb23011d10689370e8665f0ee69e9c",
+          "sha1": "f84bb1947582ab9f2097365c0b5597e37cfe3be5",
+          "md5": "443ed7d35a957ea2fa66ca7b8de83f58"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "module-core",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "kt-extensions",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "reddot",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webview",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webcore",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "professional",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "invite-3.12.401.11.aar",
+          "url": "invite-3.12.401.11.aar",
+          "size": 1397549,
+          "sha512": "d9aef62e053ae34087fb602577119c86948784d06456823a05bb4802cb7aa196baa39fee5be40e9ceecaaefd4b93c34a82f4faee60f983e209f7d9b946bddc4e",
+          "sha256": "ae06ebfc556485e37a37aa5a36e42be736eb23011d10689370e8665f0ee69e9c",
+          "sha1": "f84bb1947582ab9f2097365c0b5597e37cfe3be5",
+          "md5": "443ed7d35a957ea2fa66ca7b8de83f58"
+        }
+      ]
+    }
+  ]
+}

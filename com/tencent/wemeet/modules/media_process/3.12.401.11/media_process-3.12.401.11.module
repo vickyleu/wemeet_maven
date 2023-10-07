@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet.modules",
+    "module": "media_process",
+    "version": "3.12.401.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "media_process-3.12.401.11.aar",
+          "url": "media_process-3.12.401.11.aar",
+          "size": 953973,
+          "sha512": "5f9b4abaf1a95df626a8f6fd8c54622dc25350a3dacce55e07aca63222f7491496ffc2d94abba3e1df79235ab405ff2ab86b444af9341c93d3f8d147afb01908",
+          "sha256": "eb43a222049a804460c2e13a00e5c493e20758c94e02c750294ea8e00d052d84",
+          "sha1": "e14ce00fc4c6f4ab94d08d16d279e636a999c90a",
+          "md5": "685506cedcc320b74925ef246ea6079d"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "module-core",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "kt-extensions",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "reddot",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webview",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webcore",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "professional",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.third-party",
+          "module": "xcast",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "name_badge",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "picture-selector",
+          "version": {
+            "requires": "1.1.45"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "media_process-3.12.401.11.aar",
+          "url": "media_process-3.12.401.11.aar",
+          "size": 953973,
+          "sha512": "5f9b4abaf1a95df626a8f6fd8c54622dc25350a3dacce55e07aca63222f7491496ffc2d94abba3e1df79235ab405ff2ab86b444af9341c93d3f8d147afb01908",
+          "sha256": "eb43a222049a804460c2e13a00e5c493e20758c94e02c750294ea8e00d052d84",
+          "sha1": "e14ce00fc4c6f4ab94d08d16d279e636a999c90a",
+          "md5": "685506cedcc320b74925ef246ea6079d"
+        }
+      ]
+    }
+  ]
+}

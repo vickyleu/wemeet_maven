@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet.modules",
+    "module": "question_answer",
+    "version": "3.12.401.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "question_answer-3.12.401.11.aar",
+          "url": "question_answer-3.12.401.11.aar",
+          "size": 205767,
+          "sha512": "d897534635e77eca14f0bea2d0918f08aa6fce2891cb03183cefa03bb815e5476771c68eaeb12cd6e3cf783e83abfe33c18de7ea1b2f50efc0847e1650a91a7f",
+          "sha256": "bf7df4b21423870d87a23025a8b5e9d4be8492590982bd3345206d64e80dea13",
+          "sha1": "885b35cb6e0d7d2eec9a8fe5bf9d4bfd86b43412",
+          "md5": "1593209b0d7aa1e5bbb47661b9174529"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "module-core",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "kt-extensions",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "reddot",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webview",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webcore",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "professional",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "question_answer-3.12.401.11.aar",
+          "url": "question_answer-3.12.401.11.aar",
+          "size": 205767,
+          "sha512": "d897534635e77eca14f0bea2d0918f08aa6fce2891cb03183cefa03bb815e5476771c68eaeb12cd6e3cf783e83abfe33c18de7ea1b2f50efc0847e1650a91a7f",
+          "sha256": "bf7df4b21423870d87a23025a8b5e9d4be8492590982bd3345206d64e80dea13",
+          "sha1": "885b35cb6e0d7d2eec9a8fe5bf9d4bfd86b43412",
+          "md5": "1593209b0d7aa1e5bbb47661b9174529"
+        }
+      ]
+    }
+  ]
+}

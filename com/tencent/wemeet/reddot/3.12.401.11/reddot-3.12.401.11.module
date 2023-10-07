@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "reddot",
+    "version": "3.12.401.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wemeet-kapt",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reddot-3.12.401.11.aar",
+          "url": "reddot-3.12.401.11.aar",
+          "size": 69717,
+          "sha512": "9a328add7d3eb5ecc454ea294d45fd31b6eef59ead01f18438aecb60aa993f536d975ea2ca40e3bd3b5fa2852ab1efaef70d4dac99c105a71e60a55326cb71f0",
+          "sha256": "21ff952b67daf06f9988c4593d3344a86679425cc441e02000cb5f045b84bd28",
+          "sha1": "f981e23ed5f481a5241b03cffb5b5068210f5d79",
+          "md5": "71a88606c34ee50bc95a27fa41f3547a"
+        }
+      ]
+    },
+    {
+      "name": "productReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wemeet-kapt",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reddot-3.12.401.11.aar",
+          "url": "reddot-3.12.401.11.aar",
+          "size": 69717,
+          "sha512": "9a328add7d3eb5ecc454ea294d45fd31b6eef59ead01f18438aecb60aa993f536d975ea2ca40e3bd3b5fa2852ab1efaef70d4dac99c105a71e60a55326cb71f0",
+          "sha256": "21ff952b67daf06f9988c4593d3344a86679425cc441e02000cb5f045b84bd28",
+          "sha1": "f981e23ed5f481a5241b03cffb5b5068210f5d79",
+          "md5": "71a88606c34ee50bc95a27fa41f3547a"
+        }
+      ]
+    }
+  ]
+}

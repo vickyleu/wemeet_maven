@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet.modules",
+    "module": "screen_share",
+    "version": "3.12.401.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "screen_share-3.12.401.11.aar",
+          "url": "screen_share-3.12.401.11.aar",
+          "size": 1891186,
+          "sha512": "5c2f8dba5e3c538e86e0e26a8cb1060ab52418139f21949988495ef5a7fc29ad02174d7e36e473c4a28cedc4aa6ad0ae85f31e50e8012140dc96d96e42d8fff1",
+          "sha256": "f52cb249eba9a99cf4f4d6cc5a0f2e551ea5011801683cd38748d1ad93e7028a",
+          "sha1": "6de7d2e10afd4eded73d637762a8f7945be449c5",
+          "md5": "6b6fc34ff1c581111d34f01e616dd8f2"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "module-core",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "kt-extensions",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "reddot",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webview",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webcore",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "professional",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.third-party",
+          "module": "whiteboard",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet.third-party",
+          "module": "xcast",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "screen_share-3.12.401.11.aar",
+          "url": "screen_share-3.12.401.11.aar",
+          "size": 1891186,
+          "sha512": "5c2f8dba5e3c538e86e0e26a8cb1060ab52418139f21949988495ef5a7fc29ad02174d7e36e473c4a28cedc4aa6ad0ae85f31e50e8012140dc96d96e42d8fff1",
+          "sha256": "f52cb249eba9a99cf4f4d6cc5a0f2e551ea5011801683cd38748d1ad93e7028a",
+          "sha1": "6de7d2e10afd4eded73d637762a8f7945be449c5",
+          "md5": "6b6fc34ff1c581111d34f01e616dd8f2"
+        }
+      ]
+    }
+  ]
+}

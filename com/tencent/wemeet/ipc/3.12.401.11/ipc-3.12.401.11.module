@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "ipc",
+    "version": "3.12.401.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ipc-3.12.401.11.aar",
+          "url": "ipc-3.12.401.11.aar",
+          "size": 137536,
+          "sha512": "763dd7806177a2ad72187ea800fbdecf4cb3a3f59c1473d5c4304544f6906605d623d153be2a29e0857c7868dd5713b62cb62e0b32c07dbac842675ed3ee2660",
+          "sha256": "2f4eaf0c2d6d8ecd165178956a4a72f950f7a0f15acc624c9c72823f63ac0853",
+          "sha1": "329bba870e8cd7f55eb3f9c0cd90883c889ef89a",
+          "md5": "aee32ba012ee40808d6531b45c227f64"
+        }
+      ]
+    },
+    {
+      "name": "productReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ipc-3.12.401.11.aar",
+          "url": "ipc-3.12.401.11.aar",
+          "size": 137536,
+          "sha512": "763dd7806177a2ad72187ea800fbdecf4cb3a3f59c1473d5c4304544f6906605d623d153be2a29e0857c7868dd5713b62cb62e0b32c07dbac842675ed3ee2660",
+          "sha256": "2f4eaf0c2d6d8ecd165178956a4a72f950f7a0f15acc624c9c72823f63ac0853",
+          "sha1": "329bba870e8cd7f55eb3f9c0cd90883c889ef89a",
+          "md5": "aee32ba012ee40808d6531b45c227f64"
+        }
+      ]
+    }
+  ]
+}

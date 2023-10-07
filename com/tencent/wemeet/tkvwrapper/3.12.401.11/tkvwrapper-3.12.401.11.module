@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "tkvwrapper",
+    "version": "3.12.401.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "tkvwrapper-3.12.401.11.aar",
+          "url": "tkvwrapper-3.12.401.11.aar",
+          "size": 53303,
+          "sha512": "0c61a3dd74ab4c5fc17c56573681a0ef779ffa165561906ec0db7786ed3e98af725521628019dbe91943fda8fada6b0e8127ba55396de189b7aa96521152c602",
+          "sha256": "7e57aa089b563333d6e5d8dec38d347e69da2810e017ab9f628c4851db0366b1",
+          "sha1": "3b7f276cdbff866e3bfefefbb21db54f567709de",
+          "md5": "9b1a27b097cd43231aefa6bc47c047e4"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tkvwrapper-3.12.401.11.aar",
+          "url": "tkvwrapper-3.12.401.11.aar",
+          "size": 53303,
+          "sha512": "0c61a3dd74ab4c5fc17c56573681a0ef779ffa165561906ec0db7786ed3e98af725521628019dbe91943fda8fada6b0e8127ba55396de189b7aa96521152c602",
+          "sha256": "7e57aa089b563333d6e5d8dec38d347e69da2810e017ab9f628c4851db0366b1",
+          "sha1": "3b7f276cdbff866e3bfefefbb21db54f567709de",
+          "md5": "9b1a27b097cd43231aefa6bc47c047e4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "websdk",
+    "version": "3.12.401.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet.third-party",
+          "module": "tbssdk",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "websdk-3.12.401.11.aar",
+          "url": "websdk-3.12.401.11.aar",
+          "size": 319556,
+          "sha512": "a3c243a855623a51ad2dd01d5ca426aa4ec723edd6fda0260a5fe5eb7a5a853892a736b5550d3ba2981ae78b717e08071de10b97817cfb019620296166807c91",
+          "sha256": "2ce10cb17ac30d7549b8f64d2c2cc7ba685692ffdedd39e1a13ad347c2ee484c",
+          "sha1": "904cbfa63b2257f2978c4f937630088991b5bfac",
+          "md5": "b10c12fed420a32c2000385ba5748284"
+        }
+      ]
+    },
+    {
+      "name": "productReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet.third-party",
+          "module": "tbssdk",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "websdk-3.12.401.11.aar",
+          "url": "websdk-3.12.401.11.aar",
+          "size": 319556,
+          "sha512": "a3c243a855623a51ad2dd01d5ca426aa4ec723edd6fda0260a5fe5eb7a5a853892a736b5550d3ba2981ae78b717e08071de10b97817cfb019620296166807c91",
+          "sha256": "2ce10cb17ac30d7549b8f64d2c2cc7ba685692ffdedd39e1a13ad347c2ee484c",
+          "sha1": "904cbfa63b2257f2978c4f937630088991b5bfac",
+          "md5": "b10c12fed420a32c2000385ba5748284"
+        }
+      ]
+    }
+  ]
+}

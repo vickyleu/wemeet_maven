@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet.modules",
+    "module": "chat",
+    "version": "3.12.401.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chat-3.12.401.11.aar",
+          "url": "chat-3.12.401.11.aar",
+          "size": 1932916,
+          "sha512": "df52d77413be7430ef4ce7850485075d45d6397f2c573b232468631af1cb37edfd4e410f852c9e5b58442293382ceda377f668017c6e9cef8fb630240ab9595d",
+          "sha256": "9eabbfce8e81ee3853e21556b3043caa44434a75ec328e0a4390030947b081a4",
+          "sha1": "547cc6253bea96a646a2c6acc7be942301563b98",
+          "md5": "11ebef6b35bcfbc80ef9b19676971c2c"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "module-core",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "kt-extensions",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "reddot",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webview",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webcore",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "professional",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "picture-selector",
+          "version": {
+            "requires": "1.1.45"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chat-3.12.401.11.aar",
+          "url": "chat-3.12.401.11.aar",
+          "size": 1932916,
+          "sha512": "df52d77413be7430ef4ce7850485075d45d6397f2c573b232468631af1cb37edfd4e410f852c9e5b58442293382ceda377f668017c6e9cef8fb630240ab9595d",
+          "sha256": "9eabbfce8e81ee3853e21556b3043caa44434a75ec328e0a4390030947b081a4",
+          "sha1": "547cc6253bea96a646a2c6acc7be942301563b98",
+          "md5": "11ebef6b35bcfbc80ef9b19676971c2c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet.modules",
+    "module": "warmup_media",
+    "version": "3.12.401.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "warmup_media-3.12.401.11.aar",
+          "url": "warmup_media-3.12.401.11.aar",
+          "size": 450814,
+          "sha512": "a9c4326e3f1803e88cf2869fe4c525752f1ce0968d2b03dc0ff4dc3e967ca4f00a59fb13289ac36fe9d5878288f09facc6f70482faaaef56743e5cdd3835bdf1",
+          "sha256": "7d1a48a87ca74f1efe2e534c3581dcb59484327eccdab11194117646b40cc7c4",
+          "sha1": "8f47947a70b9e6d6e42e4d93d57e48c0245bfe19",
+          "md5": "f125949473da90c3937734a1bbe0e8b9"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "module-core",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "kt-extensions",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "reddot",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webview",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webcore",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "professional",
+          "version": {
+            "requires": "3.12.401.11"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.tencent.liteav",
+          "module": "LiteAVSDK_Player",
+          "version": {
+            "requires": "9.5.29040"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "warmup_media-3.12.401.11.aar",
+          "url": "warmup_media-3.12.401.11.aar",
+          "size": 450814,
+          "sha512": "a9c4326e3f1803e88cf2869fe4c525752f1ce0968d2b03dc0ff4dc3e967ca4f00a59fb13289ac36fe9d5878288f09facc6f70482faaaef56743e5cdd3835bdf1",
+          "sha256": "7d1a48a87ca74f1efe2e534c3581dcb59484327eccdab11194117646b40cc7c4",
+          "sha1": "8f47947a70b9e6d6e42e4d93d57e48c0245bfe19",
+          "md5": "f125949473da90c3937734a1bbe0e8b9"
+        }
+      ]
+    }
+  ]
+}
